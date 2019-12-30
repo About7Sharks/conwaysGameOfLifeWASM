@@ -23,7 +23,9 @@ const ctx = canvas.getContext('2d');
 
 const renderLoop = () => {
   fps.render();
-  universe.tick();
+  for (let i = 0; i < 9; i++) {
+    universe.tick();
+  }
   drawGrid();
   drawCells();
   animationId = requestAnimationFrame(renderLoop);
@@ -58,23 +60,43 @@ const drawCells = () => {
     const cells = new Uint8Array(memory.buffer, cellsPtr, width * height);
  
     ctx.beginPath();
-  
+    
+    // Alive cells.
+    ctx.fillStyle = ALIVE_COLOR;
     for (let row = 0; row < height; row++) {
-      for (let col = 0; col < width; col++) {
+    for (let col = 0; col < width; col++) {
         const idx = getIndex(row, col);
-  
-        ctx.fillStyle = cells[idx] === Cell.Dead
-          ? DEAD_COLOR
-          : ALIVE_COLOR;
-  
+        if (cells[idx] !== Cell.Alive) {
+        continue;
+        }
+
         ctx.fillRect(
-          col * (CELL_SIZE + 1) + 1,
-          row * (CELL_SIZE + 1) + 1,
-          CELL_SIZE,
-          CELL_SIZE
+        col * (CELL_SIZE + 1) + 1,
+        row * (CELL_SIZE + 1) + 1,
+        CELL_SIZE,
+        CELL_SIZE
         );
-      }
     }
+    }
+
+    // Dead cells.
+    ctx.fillStyle = DEAD_COLOR;
+    for (let row = 0; row < height; row++) {
+    for (let col = 0; col < width; col++) {
+        const idx = getIndex(row, col);
+        if (cells[idx] !== Cell.Dead) {
+        continue;
+        }
+
+        ctx.fillRect(
+        col * (CELL_SIZE + 1) + 1,
+        row * (CELL_SIZE + 1) + 1,
+        CELL_SIZE,
+        CELL_SIZE
+        );
+    }
+    }
+
     
     ctx.stroke();
 };

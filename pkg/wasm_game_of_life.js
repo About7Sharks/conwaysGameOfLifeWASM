@@ -229,6 +229,14 @@ export const __wbindgen_object_drop_ref = function(arg0) {
     takeObject(arg0);
 };
 
+export const __widl_f_time_with_label_ = function(arg0, arg1) {
+    console.time(getStringFromWasm0(arg0, arg1));
+};
+
+export const __widl_f_time_end_with_label_ = function(arg0, arg1) {
+    console.timeEnd(getStringFromWasm0(arg0, arg1));
+};
+
 export const __wbg_random_40717e477b6813d8 = typeof Math.random == 'function' ? Math.random : notDefined('Math.random');
 
 export const __wbindgen_throw = function(arg0, arg1) {
