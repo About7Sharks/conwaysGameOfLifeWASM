@@ -22,11 +22,22 @@
       h3{
         text-align: center;
       }
+      #fps {
+        white-space: pre;
+        font-family: monospace;
+      }
+      #play-pause{
+        height: 20px;
+      }
+      span{
+        display: inline-flex;
+      }
     </style>
   </head>
   <body>
     <h3>Conways Game of Life using WASM and Javascript</h3>
-    <button id="play-pause">⏸</button>
+    <span><button id="play-pause">⏸</button>
+      <div id="fps"></div></span>
 
     <canvas id="game-of-life-canvas"></canvas>
     <p>The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or "populated" or "unpopulated". Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
