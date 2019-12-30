@@ -1,0 +1,1 @@
+/Users/sock/code/wasm-game-of-life/target/wasm32-unknown-unknown/debug/wasm_game_of_life-a5b310c9b4a1e096.wasm: /Users/sock/code/wasm-game-of-life/src/lib.rs /Users/sock/code/wasm-game-of-life/src/utils.rs
