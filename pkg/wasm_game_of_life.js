@@ -23,6 +23,8 @@ function getInt32Memory0() {
     }
     return cachegetInt32Memory0;
 }
+
+function notDefined(what) { return () => { throw new Error(`${what} is not defined`); }; }
 /**
 */
 export const Cell = Object.freeze({ Dead:0,Alive:1, });
@@ -90,6 +92,8 @@ export class Universe {
         return ret;
     }
 }
+
+export const __wbg_random_40717e477b6813d8 = typeof Math.random == 'function' ? Math.random : notDefined('Math.random');
 
 export const __wbindgen_throw = function(arg0, arg1) {
     throw new Error(getStringFromWasm0(arg0, arg1));
