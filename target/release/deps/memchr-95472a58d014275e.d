@@ -1,0 +1,13 @@
+/Users/sock/code/wasm-game-of-life/target/release/deps/memchr-95472a58d014275e.rmeta: /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/lib.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/fallback.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/iter.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/naive.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/mod.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/avx.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/sse2.rs
+
+/Users/sock/code/wasm-game-of-life/target/release/deps/libmemchr-95472a58d014275e.rlib: /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/lib.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/fallback.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/iter.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/naive.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/mod.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/avx.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/sse2.rs
+
+/Users/sock/code/wasm-game-of-life/target/release/deps/memchr-95472a58d014275e.d: /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/lib.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/fallback.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/iter.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/naive.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/mod.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/avx.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/sse2.rs
+
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/lib.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/fallback.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/iter.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/naive.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/mod.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/avx.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.1/src/x86/sse2.rs:

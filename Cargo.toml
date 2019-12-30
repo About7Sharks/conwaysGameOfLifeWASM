@@ -8,7 +8,7 @@ edition = "2018"
 crate-type = ["cdylib", "rlib"]
 
 [features]
-default = ["console_error_panic_hook"]
+default = ["wee_alloc"]
 
 [dependencies]
 wasm-bindgen = "0.2"
@@ -39,3 +39,4 @@ features = [
 [profile.release]
 # Tell `rustc` to optimize for small code size.
 opt-level = "s"
+lto = true

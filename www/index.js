@@ -10,7 +10,10 @@ const universe = Universe.new();
 const width = universe.width();
 const height = universe.height();
 const playPauseButton = document.getElementById("play-pause");
+let universeTimeButton= document.getElementById("universeTimeButton")
+let universeTimeInput= document.getElementById("universeTimeInput")
 
+let universeTime=1
 // Give the canvas room for all of our cells and a 1px border
 // around each of them.
 const canvas = document.getElementById("game-of-life-canvas");
@@ -23,7 +26,7 @@ const ctx = canvas.getContext('2d');
 
 const renderLoop = () => {
   fps.render();
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < universeTime; i++) {
     universe.tick();
   }
   drawGrid();
@@ -111,7 +114,10 @@ const pause = () => {
   cancelAnimationFrame(animationId);
   animationId = null;
 };
-
+universeTimeButton.addEventListener("click",event=>{
+    universeTime=universeTimeInput.value
+    console.log(universeTime)
+})
 playPauseButton.addEventListener("click", event => {
   if (isPaused()) {
     play();

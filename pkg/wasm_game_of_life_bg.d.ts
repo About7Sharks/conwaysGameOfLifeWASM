@@ -12,5 +12,3 @@ export function universe_width(a: number): number;
 export function universe_height(a: number): number;
 export function universe_cells(a: number): number;
 export function __wbindgen_free(a: number, b: number): void;
-export function __wbindgen_malloc(a: number): number;
-export function __wbindgen_realloc(a: number, b: number, c: number): number;
