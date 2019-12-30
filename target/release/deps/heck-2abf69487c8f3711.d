@@ -1,0 +1,13 @@
+/Users/sock/code/wasm-game-of-life/target/release/deps/heck-2abf69487c8f3711.rmeta: /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/lib.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/camel.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/kebab.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/mixed.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/shouty_snake.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/snake.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/title.rs
+
+/Users/sock/code/wasm-game-of-life/target/release/deps/libheck-2abf69487c8f3711.rlib: /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/lib.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/camel.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/kebab.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/mixed.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/shouty_snake.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/snake.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/title.rs
+
+/Users/sock/code/wasm-game-of-life/target/release/deps/heck-2abf69487c8f3711.d: /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/lib.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/camel.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/kebab.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/mixed.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/shouty_snake.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/snake.rs /Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/title.rs
+
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/lib.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/camel.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/kebab.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/mixed.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/shouty_snake.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/snake.rs:
+/Users/sock/.cargo/registry/src/github.com-1ecc6299db9ec823/heck-0.3.1/src/title.rs:

@@ -11,6 +11,20 @@ export enum Cell {
 export class Universe {
   free(): void;
 /**
+* Set the width of the universe.
+*
+* Resets all cells to the dead state.
+* @param {number} width 
+*/
+  set_width(width: number): void;
+/**
+* Set the height of the universe.
+*
+* Resets all cells to the dead state.
+* @param {number} height 
+*/
+  set_height(height: number): void;
+/**
 */
   tick(): void;
 /**
