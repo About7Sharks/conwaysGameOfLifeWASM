@@ -150,6 +150,13 @@ export class Universe {
         wasm.universe_set_height(this.ptr, height);
     }
     /**
+    * @param {number} row
+    * @param {number} column
+    */
+    toggle_cell(row, column) {
+        wasm.universe_toggle_cell(this.ptr, row, column);
+    }
+    /**
     */
     tick() {
         wasm.universe_tick(this.ptr);
